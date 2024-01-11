@@ -114,7 +114,8 @@ mySprite = sprites.create(img`
     `, SpriteKind.Player)
 // This is the "cipher key" to encode and decode the image
 password = sprites.create(img`
-    b 3 7 3 5 4 2 c 6 7 
+    5 5 5 5 5 4 2 c 6 7 
     `, SpriteKind.Player)
 password.top = 0
+password.scale = 5
 game.showLongText("Press A to encrypt the image. Press B to decrypt the image.", DialogLayout.Bottom)
